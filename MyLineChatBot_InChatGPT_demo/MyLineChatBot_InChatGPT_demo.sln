@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLineChatBot_InChatGPT_demo", "MyLineChatBot_InChatGPT_demo.csproj", "{12BB4E90-0B82-45C7-9095-3BC2D6C84DAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLineChatBot_InChatGPT_demo", "MyLineChatBot_InChatGPT_demo.csproj", "{BA780C20-8669-441D-88AC-23DF9A9F22F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12BB4E90-0B82-45C7-9095-3BC2D6C84DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12BB4E90-0B82-45C7-9095-3BC2D6C84DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12BB4E90-0B82-45C7-9095-3BC2D6C84DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12BB4E90-0B82-45C7-9095-3BC2D6C84DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA780C20-8669-441D-88AC-23DF9A9F22F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA780C20-8669-441D-88AC-23DF9A9F22F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA780C20-8669-441D-88AC-23DF9A9F22F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA780C20-8669-441D-88AC-23DF9A9F22F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {903B090C-FA22-4E29-8A55-63DF4FE6CCAE}
+		SolutionGuid = {7DFCA6C7-C1EE-469A-8216-7189A49F6E79}
 	EndGlobalSection
 EndGlobal

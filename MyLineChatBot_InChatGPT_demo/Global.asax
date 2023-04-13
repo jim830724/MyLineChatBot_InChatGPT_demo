@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="MyLineChatBot_InChatGPT_demo.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="MyLineChatBot_InChatGPT_demo.WebApiApplication" Language="C#" %>
