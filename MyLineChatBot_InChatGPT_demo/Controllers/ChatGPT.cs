@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Web;
 
@@ -16,8 +17,10 @@ namespace MyLineChatBot_InChatGPT_demo.Controllers
             string uri = "https://api.openai.com/v1/chat/completions";
 
             // Request headers.
-            client.DefaultRequestHeaders.Add(
-                "Authorization", ConfigurationManager.AppSettings["OpenAI_SecretKey"]);
+            //client.DefaultRequestHeaders.Add(
+            //    "Authorization", ConfigurationManager.AppSettings["OpenAI_SecretKey"]);
+            client.DefaultRequestHeaders.Authorization
+                         = new AuthenticationHeaderValue("Bearer", ConfigurationManager.AppSettings["OpenAI_SecretKey"]);
 
             var JsonString = @"
             {
