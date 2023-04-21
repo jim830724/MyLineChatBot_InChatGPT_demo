@@ -1,6 +1,6 @@
 ﻿using isRock.LineBot;
 using Microsoft.International.Converters.TraditionalChineseToSimplifiedConverter;
-using MyLineChatBot_InChatGPT_demo.Controllers;
+using MyLineChatBot_InChatGPT_demo.Controllers.Class;
 using MyLineChatBot_InChatGPT_demo.Models;
 using System;
 using System.Collections.Generic;

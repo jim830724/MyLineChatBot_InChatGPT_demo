@@ -247,7 +247,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\ChatGPT.cs" />
+    <Compile Include="Controllers\Class\ChatGPT.cs" />
+    <Compile Include="Controllers\Class\CwbTW.cs" />
     <Compile Include="Controllers\SimpleWebHookController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -272,6 +273,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Data\" />
+    <Folder Include="Views\CwbTW\" />
     <Folder Include="Views\SimpleWebHook\" />
   </ItemGroup>
   <PropertyGroup>

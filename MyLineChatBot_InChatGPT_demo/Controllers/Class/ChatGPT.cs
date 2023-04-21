@@ -7,7 +7,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Web;
 
-namespace MyLineChatBot_InChatGPT_demo.Controllers
+namespace MyLineChatBot_InChatGPT_demo.Controllers.Class
 {
     public class ChatGPT
     {
