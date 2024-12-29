@@ -59,8 +59,9 @@ namespace SimpleLineWebHook.Controllers
                                     {
                                         if (LineEvent.message.text[0] == '!')
                                         {
-                                            var GptResult = ChatGPT.CallChatGPT(LineEvent.message.text.Substring(1, LineEvent.message.text.Length - 1)).choices[0].message.content;
-                                            responseMsg = ChineseConverter.Convert($"{GptResult}", ChineseConversionDirection.SimplifiedToTraditional); ;
+                                            //var GptResult = ChatGPT.CallChatGPT(LineEvent.message.text.Substring(1, LineEvent.message.text.Length - 1)).choices[0].message.content;
+                                            var GptResult = ChatGPT.CallChatGPT(LineEvent.message.text.Substring(1, LineEvent.message.text.Length - 1));
+                                            responseMsg = ChineseConverter.Convert($"{GptResult}", ChineseConversionDirection.SimplifiedToTraditional);
                                             MessageBaseList.Add(new TextMessage(responseMsg));
                                         }
                                         else 
