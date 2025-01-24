@@ -63,7 +63,14 @@ namespace SimpleLineWebHook.Controllers
                                             responseMsg = ChineseConverter.Convert($"{GptResult}", ChineseConversionDirection.SimplifiedToTraditional); ;
                                             MessageBaseList.Add(new TextMessage(responseMsg));
                                         }
-                                        else 
+                                        else if (LineEvent.message.text[0] == '*') 
+                                        {
+                                            if (LineEvent.message.text[1] == '天' && LineEvent.message.text[2] == '氣')
+                                            {
+                                                var CwbResult = CwbTW.GetCwbData(LineEvent.message.text.Split(' ')[1]);
+                                            }
+                                        }
+                                        else
                                             break;                                        
                                         break;//responseMsg = $"收到 event : {LineEvent.type} type: {LineEvent.message.type} ";
                                     }                                    
